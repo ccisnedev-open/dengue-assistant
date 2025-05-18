@@ -21,7 +21,7 @@ Proceso DiagnosticoDengue
         Escribir "   ¿Cuántos días lleva con fiebre? (número entero)"
         Leer diasFiebre
         Escribir "   ¿Qué tan alta diría que es la fiebre?"
-        Escribir "   ¿Qué tan alta diría que es la fiebre?"
+        Escribir "   (1=Moderada, 2=Alta, 3=Muy alta)"
         Leer intensidadFiebre
     FinSi
 	
