@@ -7,7 +7,8 @@
 
 Dengue Assistant es un proyecto abierto cuyo objetivo es ayudar en la detección temprana y orientación sobre el dengue, mediante herramientas digitales accesibles para la población general.
 
-- 🔬 **Investigación:** Se ha realizado una investigación exhaustiva sobre los síntomas y signos de alarma del dengue, basada en fuentes oficiales (OMS, OPS, CDC, Ministerios de Salud).
+- 📚 **Investigación bibliográfica:** Se ha realizado una revisión bibliográfica inicial para fundamentar el desarrollo del cuestionario y la lógica de la aplicación. Puedes consultar el detalle en el archivo [research.md](./research.md).
+
 - 📝 **Pseudocódigo:** Como siguiente paso, se ha desarrollado un programa en pseudocódigo utilizando PSeInt, el cual será empleado para pruebas y validaciones iniciales antes de implementar la lógica en una aplicación real.
 
 ## Roadmap
