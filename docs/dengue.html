@@ -122,6 +122,18 @@
             font-size: 14px;
             white-space: nowrap;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            animation: fadeInRight 0.3s ease;
+        }
+        
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
         }
         
         .response-yes {
