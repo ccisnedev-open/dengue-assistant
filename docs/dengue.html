@@ -69,6 +69,7 @@
             margin-bottom: 20px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative; /* Added for positioning the response */
         }
         
         .question-card:hover {
@@ -111,11 +112,28 @@
         }
         
         .response {
-            margin-top: 15px;
-            padding: 10px 15px;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 8px 12px;
             border-radius: 6px;
             font-weight: 500;
             display: none;
+            font-size: 14px;
+            white-space: nowrap;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .response-yes {
+            background-color: rgba(231, 76, 60, 0.1);
+            color: var(--danger);
+            border-left: 4px solid var(--danger);
+        }
+        
+        .response-no {
+            background-color: rgba(46, 204, 113, 0.1);
+            color: var(--success);
+            border-left: 4px solid var(--success);
         }
         
         .response-yes {
@@ -222,6 +240,12 @@
             
             .question-text {
                 font-size: 16px;
+                padding-right: 80px; /* Make room for the response on mobile */
+            }
+            
+            .response {
+                font-size: 12px;
+                padding: 4px 8px;
             }
         }
     </style>
